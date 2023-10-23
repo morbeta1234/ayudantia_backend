@@ -1,21 +1,21 @@
 Este repo contiene un ejemplo de servidor que se distribuye de la manera:
 
 /src
->>    /routes
->>>        (acá se realiza la creación de los endpoints y conexión con las funciones asíncronas de nuestros controladores)
->>    /controllers
+>   /routes
+>>        (acá se realiza la creación de los endpoints y conexión con las funciones asíncronas de nuestros controladores)
+>    /controllers
 >>        (Acá encontramos nuestras funciones asíncronas que realizan la lógica de nuestro servidor separadas en el tema que abarcan dentro de este.)
-    /models
-        (Acá podemos encontrar los modelos creados con Sequelize)
-    /migrations
-        (Acá podemos encontrar las migraciones creados con Sequelize)
-    /config 
-        (configuración de Sequelize)
-    /seeders
-        (Acá tenemos las seeds que nos permitirán poblar nuestra BDD con datos, con lo cuales podremos testear nuestro servidor)
-    app.js
-    routes.js (Se realiza el ruteo principal de los endpoints)
-    index.js
+>    /models
+>>        (Acá podemos encontrar los modelos creados con Sequelize)
+>    /migrations
+>>        (Acá podemos encontrar las migraciones creados con Sequelize)
+>    /config 
+>>        (configuración de Sequelize)
+>    /seeders
+>>        (Acá tenemos las seeds que nos permitirán poblar nuestra BDD con datos, con lo cuales podremos testear nuestro servidor)
+>    app.js
+>    routes.js (Se realiza el ruteo principal de los endpoints)
+>    index.js
 .env (Se debe crear localmente con los datos encontrados abajo)
 .sequelizerc
 package.json
