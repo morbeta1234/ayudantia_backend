@@ -21,13 +21,13 @@ Este repo contiene un ejemplo de servidor que se distribuye de la manera:
 package.json  
 
 Template .env
-'''
+´´´
 DB_USER = <completar>  
 DB_PASSWORD = <completar>  
 DB_NAME = <completar>  
 DB_HOST = <completar> (por lo general localhost si es local)  
 
-'''
+´´´
 Teniendo postgres descargado y el usuario en postgres creado, se deben de correr los siguientes comandos:
 
 1. yarn install
