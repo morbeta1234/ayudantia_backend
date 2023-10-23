@@ -33,7 +33,7 @@ Teniendo postgres descargado y el usuario en postgres creado, se deben de correr
 3. ```yarn sequelize db:migrate```
 4. ```yarn sequelize db:seed:all```
 
-En caso de querer botar la base de datos, deberán usar yarn sequelize db:drop.
+En caso de querer botar la base de datos, deberán usar ```yarn sequelize db:drop```.
 PRECAUCIÓN: Solo usar en caso que nunca más se vayan a usar los datos de la BDD, ya que en caso contrario significará una pérdida de información permanente.
 Una alternativa menos drástica es el revertir las migraciones, lo cual se puede lograr con yarn ```db:migrate:undo``` si queremos hacer undo de la último, o ```yarn db:migrate:undo:all``` si queremos revertir todos las migraciones.
 
