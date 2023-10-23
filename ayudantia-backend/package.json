@@ -1,0 +1,22 @@
+{
+  "name": "WEB232",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^11.0.2",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
