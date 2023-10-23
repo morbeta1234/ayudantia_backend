@@ -1,10 +1,10 @@
 Este repo contiene un ejemplo de servidor que se distribuye de la manera:
 
 /src
-    /routes
-        (acá se realiza la creación de los endpoints y conexión con las funciones asíncronas de nuestros controladores)
-    /controllers
-        (Acá encontramos nuestras funciones asíncronas que realizan la lógica de nuestro servidor separadas en el tema que abarcan dentro de este.)
+>>    /routes
+>>>        (acá se realiza la creación de los endpoints y conexión con las funciones asíncronas de nuestros controladores)
+>>    /controllers
+>>        (Acá encontramos nuestras funciones asíncronas que realizan la lógica de nuestro servidor separadas en el tema que abarcan dentro de este.)
     /models
         (Acá podemos encontrar los modelos creados con Sequelize)
     /migrations
