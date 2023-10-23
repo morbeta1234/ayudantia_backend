@@ -37,7 +37,7 @@ Teniendo postgres descargado y el usuario en postgres creado, se deben de correr
 En caso de querer botar la base de datos, deberán usar yarn sequelize db:drop 
 PRECAUCIÓN: Solo usar en caso que nunca más se vayan a usar los datos de la BDD, ya que en caso contrario significará una pérdida de información permanente.
 
-Con los 4 pasos previos, se puede iniciar el a correr el servidor con el siguiente comando:
-yarn dev
+Con los 4 pasos previos, se puede iniciar el a correr el servidor con el siguiente comando:  
+```yarn dev```
 
 Con esto último, si realizamos todos los pasos previos correctamente, tendremos nuestro servidor con sus endpoints funcionando
