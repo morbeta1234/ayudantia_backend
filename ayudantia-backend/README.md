@@ -29,10 +29,10 @@ DB_HOST = <completar> (por lo general localhost si es local)
 ```
 Teniendo postgres descargado y el usuario en postgres creado, se deben de correr los siguientes comandos:
 
-1.``` yarn install```
-2.```yarn sequelize db:create```
-3.```yarn sequelize db:migrate```
-4.```yarn sequelize db:seed:all```
+1.``` yarn install```  
+2.```yarn sequelize db:create```  
+3.```yarn sequelize db:migrate```  
+4.```yarn sequelize db:seed:all```  
 
 En caso de querer botar la base de datos, deberán usar yarn sequelize db:drop 
 PRECAUCIÓN: Solo usar en caso que nunca más se vayan a usar los datos de la BDD, ya que en caso contrario significará una pérdida de información permanente.
