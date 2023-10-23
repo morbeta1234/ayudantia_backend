@@ -15,19 +15,19 @@ Este repo contiene un ejemplo de servidor que se distribuye de la manera:
 >>        (Acá tenemos las seeds que nos permitirán poblar nuestra BDD con datos, con lo cuales podremos testear nuestro servidor)
 >    app.js
 >    routes.js (Se realiza el ruteo principal de los endpoints)
->    index.js
-.env (Se debe crear localmente con los datos encontrados abajo)
-.sequelizerc
-package.json
+>    index.js  
+.env (Se debe crear localmente con los datos encontrados abajo)  
+.sequelizerc  
+package.json  
 
 Template .env
+'''
+DB_USER = <completar>  
+DB_PASSWORD = <completar>  
+DB_NAME = <completar>  
+DB_HOST = <completar> (por lo general localhost si es local)  
 
-DB_USER = <completar>
-DB_PASSWORD = <completar>
-DB_NAME = <completar>
-DB_HOST = <completar> (por lo general localhost si es local)
-
-
+'''
 Teniendo postgres descargado y el usuario en postgres creado, se deben de correr los siguientes comandos:
 
 1. yarn install
